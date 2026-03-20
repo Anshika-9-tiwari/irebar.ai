@@ -8,7 +8,7 @@ export default function page() {
         
         {/* Background Image */}
         <img
-          src="/Rebar-esti.jpg"
+          src="/rebar-esti.jpg"
           alt="Rebar Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />

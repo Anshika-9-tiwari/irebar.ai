@@ -43,7 +43,7 @@ export default function WhatWeDoPage() {
       {/* BANNER */}
       <section className="relative h-[250px] md:h-[400px] flex items-center justify-center">
         <img
-          src="/Rebar-ESTIMATING.WEBP"
+          src="/Rebar-ESTIMATING.webp"
           alt="Construction Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
