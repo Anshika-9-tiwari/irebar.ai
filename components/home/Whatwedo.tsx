@@ -37,7 +37,7 @@ export default function Whatwedo() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % stepsData.length);
-    },12000);
+    },8000);
     return () => clearInterval(interval);
   }, []);
 
