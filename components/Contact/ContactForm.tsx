@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, ChangeEvent, FormEvent } from "react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -57,10 +58,31 @@ export default function ContactForm() {
             Get a personalized demo with our product expert to explore how Rebar AI fully automates takeoffs & estimates for rebar steel supplies & contractors in the U.S. and Canada.
           </p>
 
-          <div className="text-sm text-gray-600 space-y-3">
-            <p><strong>Address:</strong> Advance Informatics, Noida, India</p>
-            <p><strong>Phone:</strong> +1-888-777-3048</p>
-            <p><strong>Email:</strong> contact@irebar.ai</p>
+          <div className="text-sm text-gray-600 space-y-4">
+            {/* Address */}
+            <div className="flex items-start gap-3">
+              <MapPin className="text-primary mt-1" size={18} />
+              <p>
+                <strong>Address :</strong> Advance Informatics, Noida, India
+              </p>
+            </div>
+
+            {/* Phone */}
+            <div className="flex items-center gap-3">
+              <Phone className="text-primary" size={18} />
+              <p>
+                <strong>Phone :</strong> +1-888-777-3048
+              </p>
+            </div>
+
+            {/* Email */}
+            <div className="flex items-center gap-3">
+              <Mail className="text-primary" size={18} />
+              <p>
+                <strong>Email:</strong> contact@irebar.ai
+              </p>
+            </div>
+
           </div>
         </div>
 

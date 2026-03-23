@@ -47,7 +47,7 @@ export default function WhatWeDoPage() {
           alt="Construction Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
 
         <h1 className="relative z-10 text-white text-3xl md:text-5xl font-bold">
           What We Do

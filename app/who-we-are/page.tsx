@@ -14,7 +14,7 @@ export default function page() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">

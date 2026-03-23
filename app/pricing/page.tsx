@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 // import type { Metadata } from "next";
 import Pricing from "@/components/home/pricing";
+import CTA from "@/components/home/Contact";
 
 // export const metadata: Metadata = {
 //   title: "Pricing | irebar.ai",
@@ -60,6 +61,7 @@ export default function PricingPage() {
       </section>
       <main>
         <Pricing/>
+        <CTA/>
       </main>
     </>
   );
