@@ -24,8 +24,8 @@ export default function PricingPage() {
           >
             <div>
               {/* Small Heading */}
-              <p className="text-gray-600 mb-8 text-sm md:text-base">
-                AI-based takeoff and estimating software pricing
+              <p className="text-gray-600 mb-8 text-base md:text-lg">
+                AI-based takeoff and estimating tool pricing
               </p>
 
               {/* Main Heading */}
@@ -40,7 +40,7 @@ export default function PricingPage() {
               {/* Description */}
               <p className="text-gray-700 text-lg leading-relaxed">
                 <span className="font-semibold">
-                  Rebar AI fully automates takeoffs for you & delivers estimate-ready outputs.
+                  I-Rebar AI fully automates takeoffs for you & delivers estimate-ready outputs.
                 </span>{" "}
                 Get AI takeoffs in 10 mins or AI-based takeoffs + Human-reviewed QA
                 takeoffs & estimates in 48 hours - based on the trade you operate in.

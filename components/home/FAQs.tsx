@@ -4,35 +4,36 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How does Rebar AI work?",
+    question: "How does I-Rebar AI work?",
     answer:
-      "Rebar AI uses advanced machine learning to analyze your uploaded construction drawings, specifications, and notes. It automatically identifies rebar elements, extracts quantities, and generates detailed takeoff reports, significantly reducing manual effort and errors.",
+      "I-Rebar AI uses advanced machine learning languages to analyze your uploaded construction drawings, specifications, and notes. It automatically identifies rebar elements, extracts quantities, and generates detailed takeoff reports, significantly reducing manual effort and errors.",
   },
   {
-    question: "What types of trades does Rebar AI support?",
+    question: "What types of trades does I-Rebar AI support?",
     answer:
-      "Rebar AI is primarily built for rebar contractors, fabricators, and estimators. It focuses on reinforcement detailing and quantity takeoffs, but can also support related structural trades depending on project requirements.",
+      "Rebar AI is primarily built for rebar contractors, fabricators, and estimators. It focuses on Reinforcing Steel Estimates and quantity takeoffs .",
   },
   {
-    question: "Who can use Rebar AI?",
+    question: "Who can use I-Rebar AI?",
     answer:
-      "Rebar AI is designed for estimators, contractors, construction firms, and rebar suppliers. Whether you're a small contractor or a large enterprise, the platform helps streamline your estimating workflow and improve bidding efficiency.",
+      "I-Rebar AI is designed for estimators, contractors, construction firms, and rebar suppliers. Whether you're a small contractor or a large enterprise, the platform helps streamline your estimating workflow and improve bidding efficiency.",
   },
   {
-    question: "What are the benefits of using Rebar AI for takeoffs?",
+    question: "What are the benefits of using I-Rebar AI for takeoffs?",
     answer:
-      "Rebar AI helps you save time, reduce human error, and increase bid capacity. You can generate accurate takeoffs faster, standardize your estimation process, and focus more on winning projects instead of manual calculations.",
+      "I-Rebar AI helps you save time, reduce human error, and increase bid capacity. You can generate accurate takeoffs faster, standardize your estimation process, and focus more on winning projects instead of manual calculations.",
   },
 ];
 
 export default function FAQ() {
   return (
-    <section className="py-20 bg-gradient-to-b from-white via-blue-50 to-white text-gray-700 shadow-2xl border-t-2 border-t-gray-100">
+    <section className="py-20 bg-gradient-to-b from-blue-100 via-white to-blue-100 text-gray-700 shadow-2xl border-t-2 border-t-gray-100">
       <div className="max-w-4xl mx-auto px-6">
 
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-2">
           FAQs
+          
         </h2>
         <div className="w-8 h-1 bg-primary mx-auto mb-12 rounded"></div>
 

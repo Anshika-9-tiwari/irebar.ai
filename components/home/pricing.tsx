@@ -16,18 +16,18 @@ export default function Pricing() {
           className="mb-12"
         >
           {/* Badge */}
-          <div className="mb-10">
+          <div className="mb-12">
             <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
               New from I-Rebar
             </span>
           </div>
 
           {/* Heading */}
-          <h2 className="text-2xl md:text-4xl font-bold mb-6 text-gray-800">
-            Tools beyond AI-based takeoff and estimating software
+          <h2 className="text-2xl md:text-4xl font-bold mb-8 text-gray-800">
+            Tools beyond AI-based takeoff and estimating tool
           </h2>
 
-          <p className="text-gray-800 font-semibold max-w-2xl mx-auto">
+          <p className="text-gray-700 font-semibold max-w-2xl mx-auto text-lg ">
             100% automated takeoffs and rebar estimation tool with human-in-loop.
           </p>
         </motion.div>
@@ -45,15 +45,15 @@ export default function Pricing() {
           </h3>
 
           <ul className="space-y-3 text-gray-600 mb-6">
-            <li>✔ No Subcontract</li>
+            <li>✔ No Subscription </li>
             <li>✔ No Setup Fees</li>
             <li>✔ No Monthly Fees</li>
             <li>✔ No Annual Commitment</li>
             <li>✔ Pay per takeoff</li>
           </ul>
-
-          <p className="text-sm text-gray-500 mb-6">
-            Basic pricing starts from $0.20–$0.90 per ton depending on complexity.
+ 
+          <p className="text-lg  text-gray-500 mb-8">
+            <span className="text-2xl text-blue-700 font-semibold">Basic pricing starts from -</span> <br /> Residential take off - $25 USD to $100 USD & <br /> Commercial take off - $100 USD to $500 USD
           </p>
 
           <a href="contact" className="btn btn-primary rounded-full ml-4">

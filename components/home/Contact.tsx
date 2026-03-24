@@ -19,11 +19,11 @@ export default function CTA() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto px-6">
         
-        <h2 className="text-xl md:text-3xl font-bold mb-5">
-          Get started with our AI-based takeoff and construction estimating software today!
+        <h2 className="text-xl md:text-3xl font-bold mb-7">
+          Get started with our AI-based takeoff and construction estimating tool today!
         </h2>
 
-        <p className="text-gray-100 mb-6">
+        <p className="text-gray-100 mb-8 text-lg">
           Talk to us and get your first AI takeoff done free of cost for 100 tons quantity.
         </p>
 
