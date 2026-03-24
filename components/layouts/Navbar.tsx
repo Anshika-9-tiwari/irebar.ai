@@ -21,7 +21,7 @@ export default function Navbar() {
       {/* Left - Logo */}
       <div className="flex-1">
         <Link href="/" className="text-xl font-bold text-primary">
-          irebar.ai
+          iRebar.ai
         </Link>
       </div>
 
@@ -41,7 +41,7 @@ export default function Navbar() {
       {/* Right CTA */}
       <div className="hidden lg:flex">
         <a href="contact" className="btn btn-primary rounded-full ml-4  relative overflow-hidden animate-pulse">
-          Book Demo
+         Get Free Trial
         </a>
       </div>
 
@@ -76,7 +76,7 @@ export default function Navbar() {
                 className="btn btn-primary w-full mt-2"
                 onClick={() => setOpen(false)}
               >
-                Book Demo
+                Get Free Trial
               </a>
             </li>
           </ul>

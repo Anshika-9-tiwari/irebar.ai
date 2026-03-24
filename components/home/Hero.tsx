@@ -22,13 +22,13 @@ const Hero = () => {
 
         {/* Description */}
         <p className="text-gray-600  text-lg  md:text-xl mb-10 max-w-2xl mx-auto">
-          I-Rebar is your a  takeoff and estimating software tool to accurate  estimates with a human-in-the-loop  process.
+          iRebar is your a  takeoff and estimating software tool to accurate  estimates with a human-in-the-loop  process.
         </p>
 
         {/* CTA Button */}
         <div className="flex justify-center">
           <a href="contact" className="btn btn-primary rounded-full ml-4">
-            Book Demo
+             Get Free Trial
             <span className="ml-1 text-2xl font-bold">→</span>
           </a>
         </div>

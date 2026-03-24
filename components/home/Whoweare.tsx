@@ -22,7 +22,7 @@ export default function Whoweare() {
           </h3>
 
           <p className="text-gray-700 mb-12 text-lg">
-            I-Rebar AI takeoff and estimating tool provides instant automated
+            iRebar AI takeoff and estimating tool provides instant automated
             Excel-based estimates, turning drawings into accurate quantities.
           </p>
         </motion.div>

@@ -55,7 +55,7 @@ export default function ContactForm() {
           </h2>
 
           <p className="text-gray-500 mb-12">
-            Get a personalized demo with our product expert to explore how Rebar AI fully automates takeoffs & estimates for rebar steel supplies & contractors in the U.S. and Canada.
+            Get a personalized demo with our product expert to explore how iRebar AI fully automates takeoffs & estimates for rebar steel supplies & contractors in the U.S. and Canada.
           </p>
 
           <div className="text-sm text-gray-600 space-y-4">
@@ -63,7 +63,7 @@ export default function ContactForm() {
             <div className="flex items-start gap-3">
               <MapPin className="text-primary mt-1" size={18} />
               <p>
-                <strong>Address :</strong> Advance Informatics, Noida, India
+                <strong>Address :</strong> 142A/20A Noida Special Economic Zone, <br /> Noida , India - 201305
               </p>
             </div>
 
@@ -93,9 +93,9 @@ export default function ContactForm() {
         >
           {/* BOOK A DEMO HEADING */}
           <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4 text-center">
-            Book a Demo
+            Book a Free Trial
           </h3>
-          <div className="w-12 h-1 bg-primary mx-auto mb-8 rounded"></div>
+          <div className="w-15 h-1 bg-primary mx-auto mb-8 rounded"></div>
 
           <input
             type="text"

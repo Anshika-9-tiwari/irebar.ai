@@ -8,7 +8,7 @@ const stepsData = [
   {
     title: "Upload Site Plan in PDF Format",
     description:
-      "Drop all your spec docs, architectural plans, and legends here, rebar ai reads everything.",
+      "Drop all your spec docs, architectural plans, and legends here, iRebar ai reads everything.",
     image: "/steps_1.jpg",
   },
   {
@@ -20,7 +20,7 @@ const stepsData = [
   {
     title: "AI does quantity takeoff",
     description:
-      "Our AI scans your uploaded files, reads through specs and notes to extracts quantities of rebar ",
+      "Our AI scans your uploaded files, reads through specs and notes to extracts quantities of iRebar ",
     image: "/steps_3.jpg",
   },
   {

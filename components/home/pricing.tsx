@@ -18,13 +18,13 @@ export default function Pricing() {
           {/* Badge */}
           <div className="mb-12">
             <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              New from I-Rebar
+              New from iRebar
             </span>
           </div>
 
           {/* Heading */}
           <h2 className="text-2xl md:text-4xl font-bold mb-8 text-gray-800">
-            Tools beyond AI-based takeoff and estimating tool
+            Beyond AI-based takeoff and estimating tool
           </h2>
 
           <p className="text-gray-700 font-semibold max-w-2xl mx-auto text-lg ">
@@ -53,11 +53,11 @@ export default function Pricing() {
           </ul>
  
           <p className="text-lg  text-gray-500 mb-8">
-            <span className="text-2xl text-blue-700 font-semibold">Basic pricing starts from -</span> <br /> Residential take off - $25 USD to $100 USD & <br /> Commercial take off - $100 USD to $500 USD
+            <span className="text-2xl text-blue-700 font-semibold">Basic pricing starts from -</span> <br /> Residential take off - $25 USD to $100 USD <br /> Commercial take off - $100 USD to $500 USD
           </p>
 
           <a href="contact" className="btn btn-primary rounded-full ml-4">
-            Book Demo
+            Book Free Trial
             <span className="ml-1 text-2xl font-bold">→</span>
           </a>
         </motion.div>

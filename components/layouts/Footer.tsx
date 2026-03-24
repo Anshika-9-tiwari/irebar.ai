@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo + Description */}
         <div>
           <h2 className="text-2xl font-bold  mb-3">
-            irebar.ai
+            iRebar.ai
           </h2>
           <p className="text-sm text-gray-300">
             AI-powered takeoff and estimating software for rebar contractors.
@@ -24,6 +24,7 @@ export default function Footer() {
             <li><a href="who-we-are">Who We Are</a></li>
             <li><a href="pricing">Pricing</a></li>
             <li><a href="faqs">FAQs</a></li>
+            <li><a href="contact">Contact</a></li>
           </ul>
         </div>
 
@@ -33,10 +34,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Get Started</h3>
           <p className="text-sm text-gray-300 mb-4">
-            Book a demo and see how irebar.ai works.
+            Book a free trial and see how iRebar.ai works.
           </p>
           <a href="contact" className="btn btn-primary w-full rounded-2xl border-gray-400">
-            Book Demo
+            Book Free Trial
           </a>
         </div>
 
@@ -44,7 +45,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-300 text-center py-4 text-sm">
-        © {new Date().getFullYear()} irebar.ai. All rights reserved.
+        © {new Date().getFullYear()} iRebar.ai. All rights reserved.
       </div>
     </footer>
   );

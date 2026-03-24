@@ -23,7 +23,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-3xl md:text-5xl font-bold mb-2">
-            Rebar steel AI  Estimating
+            iRebar steel AI  Estimating
           </h1>
           <p className="text-sm md:text-lg text-gray-200">
             Let’s build smarter Rebar Estimates with AI

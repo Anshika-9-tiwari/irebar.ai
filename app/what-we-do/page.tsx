@@ -23,13 +23,13 @@ const benefits = [
     icon: DraftingCompass,
   },
   {
-    title: "Rebar Specifications",
+    title: "iRebar Specifications",
     description:
-      "Each rebar is detailed showing diameter, length, shape, and quantities.",
+      "Each iRebar is detailed showing diameter, length, shape, and quantities.",
     icon: Ruler,
   },
   {
-    title: "Rebar Assistance",
+    title: "iRebar Assistance",
     description:
       "Outsourced support saves time, cost, and manpower while ensuring smooth execution.",
     icon: Headphones,
@@ -60,14 +60,14 @@ export default function WhatWeDoPage() {
         {/* LEFT TEXT */}
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-            Rebar Estimating Services
+            iRebar Estimating Services
           </h2>
 
           <p className="text-gray-600 leading-relaxed">
-            Rebar estimating services demand experience; thus, world estimating stood competitive among competitors due to its competitive team of Rebar estimators. A steel reinforcing rod effectively strengthens concrete and cast into concrete as an integral part of the construction process. Concrete pricing demands an estimate in which an evaluation of demanding Rebar is involved for a certain construction project.
+            iRebar estimating services demand experience; thus, world estimating stood competitive among competitors due to its competitive team of Rebar estimators. A steel reinforcing rod effectively strengthens concrete and cast into concrete as an integral part of the construction process. Concrete pricing demands an estimate in which an evaluation of demanding Rebar is involved for a certain construction project.
 
             <br /><br />
-            Rebar AI  work is one of the most required services for simplifying work
+            iRebar AI  work is one of the most required services for simplifying work
             and reducing installation costs.
           </p>
         </div>
@@ -92,7 +92,7 @@ export default function WhatWeDoPage() {
           viewport={{ once: true }}
           className="text-xl md:text-2xl font-bold text-center mb-10"
         >
-          Benefits of Rebar Estimating Services
+          Benefits of iRebar Estimating Services
         </motion.h2>
 
         <div className="grid md:grid-cols-4 gap-6">

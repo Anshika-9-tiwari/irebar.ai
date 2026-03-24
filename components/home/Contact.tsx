@@ -24,14 +24,14 @@ export default function CTA() {
         </h2>
 
         <p className="text-gray-100 mb-8 text-lg">
-          Talk to us and get your first AI takeoff done free of cost for 100 tons quantity.
+          Talk to us and get your first AI takeoff done free of cost for 25 tons quantity.
         </p>
 
         <a
           href="/contact"
           className="btn btn-primary rounded-full px-6"
         >
-          Book Demo
+          Book Free Trial
           <span className="ml-1 text-2xl font-bold">→</span>
         </a>
 
