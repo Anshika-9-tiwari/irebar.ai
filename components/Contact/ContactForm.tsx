@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, ChangeEvent, FormEvent } from "react";
-import { MapPin, Phone, Mail, UploadCloud } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -11,22 +11,11 @@ export default function ContactForm() {
     company: "",
   });
 
-  const [file, setFile] = useState<File | null>(null);
-  const [preview, setPreview] = useState<string | null>(null);
-
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState("");
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const selectedFile = e.target.files?.[0];
-    if (selectedFile) {
-      setFile(selectedFile);
-      setPreview(URL.createObjectURL(selectedFile));
-    }
   };
 
   const handleSubmit = async (e: FormEvent) => {
@@ -42,10 +31,6 @@ export default function ContactForm() {
       formData.append("mobile", form.mobile);
       formData.append("company", form.company);
 
-      if (file) {
-        formData.append("file", file);
-      }
-
       const res = await fetch("/api/contact", {
         method: "POST",
         body: formData,
@@ -54,8 +39,6 @@ export default function ContactForm() {
       if (res.ok) {
         setSuccess("Message sent successfully!");
         setForm({ name: "", email: "", mobile: "", company: "" });
-        setFile(null);
-        setPreview(null);
       }
     } catch (error) {
       console.error(error);
@@ -163,44 +146,6 @@ export default function ContactForm() {
             </p>
           )}
         </form>
-      </div>
-      
-      {/* IMAGE UPLOAD BOX */}
-      <div className="max-w-4xl  mx-auto px-6 bg-white py-6 rounded-xl shadow-md border mt-15 text-center">
-        <label className="cursor-pointer block">
-          
-          {/* Hidden Input */}
-          <input
-            type="file"
-            accept="image/*,.pdf"
-            onChange={handleFileChange}
-            className="hidden"
-          />
-
-          {/* Upload UI */}
-          {!preview ? (
-            <div className="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-lg p-6 hover:border-primary transition">
-              <UploadCloud size={40} className="text-primary mb-3" />
-              <p className="text-gray-600 font-medium">
-                Click to Upload Drawing / File
-              </p>
-              <p className="text-sm text-gray-400">
-                PNG, JPG, PDF supported
-              </p>
-            </div>
-          ) : (
-            <div>
-              <img
-                src={preview}
-                alt="Preview"
-                className="w-full h-48 object-cover rounded-lg border"
-              />
-              <p className="text-sm text-gray-500 mt-2">
-                Click to change file
-              </p>
-            </div>
-          )}
-        </label>
       </div>
     </section>
   );

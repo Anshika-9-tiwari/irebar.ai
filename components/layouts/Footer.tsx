@@ -18,13 +18,13 @@ export default function Footer() {
         {/* Navigation */}
         <div>
           <h3 className="font-semibold mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li><a href="">Home</a></li>
-            <li><a href="what-we-do">What We Do</a></li>
-            <li><a href="who-we-are">Who We Are</a></li>
-            <li><a href="pricing">Pricing</a></li>
-            <li><a href="faqs">FAQs</a></li>
-            <li><a href="contact">Contact</a></li>
+          <ul className="space-y-2 text-sm ">
+            <li className="hover:text-blue-300"><a href="">Home</a></li>
+            <li className="hover:text-blue-300"><a href="what-we-do">What We Do</a></li>
+            <li className="hover:text-blue-300"><a href="who-we-are">Who We Are</a></li>
+            <li className="hover:text-blue-300"><a href="pricing">Pricing</a></li>
+            <li className="hover:text-blue-300"><a href="faqs">FAQs</a></li>
+            <li className="hover:text-blue-300"><a href="contact">Contact</a></li>
           </ul>
         </div>
 
